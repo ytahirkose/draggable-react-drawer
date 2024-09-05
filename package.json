@@ -14,7 +14,9 @@
     "js",
     "draggable",
     "drawer",
-    "draggable drawer"
+    "draggable drawer",
+    "antd-mobile",
+    "ant design mobile"
   ],
   "author": "Yaşar Tahir Köse",
   "license": "MIT",
