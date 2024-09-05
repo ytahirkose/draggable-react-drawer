@@ -16,7 +16,7 @@ const Drawer = ({children, open, setOpen}) => {
         }, 0)
     }, [open]);
 
-    return (<div className={'container'}>
+    return (<>
         {open ? <FloatingPanel onHeightChange={(height)=>{
             setTimeout(() => {
                 if(height === 0 && drawer.current.open){
@@ -28,7 +28,7 @@ const Drawer = ({children, open, setOpen}) => {
             {children}
         </FloatingPanel> : ''
         }
-    </div>)
+    </>)
 }
 
 export default Drawer;
