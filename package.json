@@ -1,6 +1,6 @@
 {
   "name": "draggable-react-drawer",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "type": "module",
   "description": "create draggable react components",
   "main": "dist/index.js",
@@ -19,6 +19,10 @@
   ],
   "author": "Yaşar Tahir Köse",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ytahirkose/draggable-react-drawer"
+  },
   "devDependencies": {
     "rollup": "^4.21.2",
     "rollup-plugin-terser": "7.0.2",
