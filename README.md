@@ -15,6 +15,11 @@ props = {
 - open and setOpen to control drawer
 - verticalRatio to set vertical height of drawer from 1 to 100, default value 100
 
+
+```
+import {Drawer} from "draggable-react-drawer";
+```
+
 ```
 const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 ```
