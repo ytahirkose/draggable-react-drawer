@@ -1,13 +1,12 @@
 {
   "name": "draggable-react-drawer",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "type": "module",
   "description": "create draggable react components",
   "main": "dist/index.js",
   "scripts": {
     "build:dev": "rollup -c --environment NODE_ENV:development",
-    "build": "rollup -c --environment NODE_ENV:production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c --environment NODE_ENV:production"
   },
   "keywords": [
     "react",
