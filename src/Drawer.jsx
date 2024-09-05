@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useRef} from 'react';
+import React, {useEffect, useRef} from 'react';
 import {FloatingPanel} from "antd-mobile";
 
 const anchors = [0, window.innerHeight, window.innerHeight]
@@ -17,9 +17,9 @@ const Drawer = ({children, open, setOpen}) => {
     }, [open]);
 
     return (<div className={'container'}>
-        {open ? <FloatingPanel onHeightChange={()=>{
+        {open ? <FloatingPanel onHeightChange={(height)=>{
             setTimeout(() => {
-                if(document.getElementsByClassName('adm-floating-panel')[0]?.style?.transform === 'translateY(calc(100% + 0px))' && drawer.current.open){
+                if(height === 0 && drawer.current.open){
                     drawer.current.open = false;
                     setOpen(false);
                 }
