@@ -10,7 +10,7 @@ export default [
     {
         input: 'src/index.js',
         output: {
-            file: 'lib/index.js',
+            file: 'dist/index.js',
             format: 'es',
             sourcemap: devMode ? 'inline' : false,
             plugins: [
