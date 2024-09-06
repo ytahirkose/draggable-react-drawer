@@ -1,7 +1,7 @@
 ## Installation
 
 ```sh
-npm install react-draggable-drawer
+npm install draggable-react-drawer
 ```
 
 ## ✨ Usage

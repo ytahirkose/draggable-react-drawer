@@ -1,6 +1,6 @@
 {
   "name": "draggable-react-drawer",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "type": "module",
   "description": "create draggable react components",
   "main": "dist/index.js",
